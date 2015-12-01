@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7C668084F037EEDAD123EF5578362A2A4EC4FAE8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7C668084F037EEDAD123EF5578362A2A4EC4FAE8" : 0,
+    "0F2BC4ED201968190C758FF6B2FB98664A065896" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E340B90E-198A-4B0D-9814-82388C2D4787",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7C668084F037EEDAD123EF5578362A2A4EC4FAE8" : "MisFit-iPad\/",
+    "0F2BC4ED201968190C758FF6B2FB98664A065896" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MisFitiPad",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MisFitiPad.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/b20160\/MisFit-iPad.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0F2BC4ED201968190C758FF6B2FB98664A065896"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/b20160\/MisFit-iPad.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7C668084F037EEDAD123EF5578362A2A4EC4FAE8"
+    }
+  ]
+}
