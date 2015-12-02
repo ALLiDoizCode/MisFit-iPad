@@ -10,7 +10,8 @@ import UIKit
 
 class MainViewController: UIViewController {
 
-    @IBOutlet weak var MainLabel: NSLayoutConstraint!
+
+    @IBOutlet weak var theLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,43 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--Main View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="j0m-5F-D1u">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="MisFitiPad" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9Ui-AT-cax" customClass="MainViewController" customModule="MisFitiPad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="9Vp-Us-ZHi"/>
+                        <viewControllerLayoutGuide type="bottom" id="X3G-gN-mQs"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="Le0-ve-9X1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woh-GL-Dis">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZX0-V4-80W">
                                 <rect key="frame" x="279" y="290" width="42" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="woh-GL-Dis" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EEy-lv-96s"/>
-                            <constraint firstItem="woh-GL-Dis" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="q65-wb-opL"/>
+                            <constraint firstItem="ZX0-V4-80W" firstAttribute="centerX" secondItem="Le0-ve-9X1" secondAttribute="centerX" id="CVX-H5-6LT"/>
+                            <constraint firstItem="ZX0-V4-80W" firstAttribute="centerY" secondItem="Le0-ve-9X1" secondAttribute="centerY" id="Vh1-5O-TVO"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="MainLabel" destination="q65-wb-opL" id="Ef9-sC-JEX"/>
+                        <outlet property="theLabel" destination="ZX0-V4-80W" id="9Tq-6J-EHk"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x0i-4M-D2x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="320" y="509"/>
         </scene>
     </scenes>
 </document>
