@@ -46,7 +46,7 @@
 		4DD6637E1C0E2B540031E667 /* MisFitiPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisFitiPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD663821C0E2B540031E667 /* MisFitiPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisFitiPadUITests.swift; sourceTree = "<group>"; };
 		4DD663841C0E2B540031E667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BF21D591C0E342300CC916C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		6BF21D591C0E342300CC916C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = MisFitUI/MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
