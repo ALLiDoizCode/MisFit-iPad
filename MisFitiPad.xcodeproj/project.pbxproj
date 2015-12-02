@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D8ECA5F1C0E816200C95AEB /* Username.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8ECA5E1C0E816200C95AEB /* Username.swift */; };
 		4DD663631C0E2B540031E667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD663621C0E2B540031E667 /* AppDelegate.swift */; };
 		4DD663681C0E2B540031E667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD663661C0E2B540031E667 /* Main.storyboard */; };
 		4DD6636A1C0E2B540031E667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD663691C0E2B540031E667 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D8ECA5E1C0E816200C95AEB /* Username.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Username.swift; sourceTree = "<group>"; };
 		4DD6635F1C0E2B540031E667 /* MisFitiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisFitiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD663621C0E2B540031E667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DD663671C0E2B540031E667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D8ECA5D1C0E812C00C95AEB /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				4D8ECA5E1C0E816200C95AEB /* Username.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
 		4DD663561C0E2B540031E667 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		4DD663611C0E2B540031E667 /* MisFitiPad */ = {
 			isa = PBXGroup;
 			children = (
+				4D8ECA5D1C0E812C00C95AEB /* Presenters */,
 				6BF21D581C0E331600CC916C /* MisFitUI */,
 				4DD663621C0E2B540031E667 /* AppDelegate.swift */,
 				4DD663691C0E2B540031E667 /* Assets.xcassets */,
@@ -274,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD663631C0E2B540031E667 /* AppDelegate.swift in Sources */,
+				4D8ECA5F1C0E816200C95AEB /* Username.swift in Sources */,
 				6BF21D5A1C0E342300CC916C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
