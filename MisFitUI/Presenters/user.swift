@@ -17,4 +17,11 @@ class user {
         return name
         
     }
+    
+    func userEmail() ->String{
+        
+        let email = "email@email.com"
+        
+        return email
+    }
 }
