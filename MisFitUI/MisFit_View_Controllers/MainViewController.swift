@@ -9,12 +9,13 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    var theUser = user();
 
     @IBOutlet weak var theLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        theLabel.text = theUser.userName();
 
         // Do any additional setup after loading the view.
     }
